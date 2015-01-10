@@ -5,10 +5,9 @@ description: >
 repository_url: https://github.com/GochoMugo/minimal-jekyll
 repository_shorthand: GochoMugo/minimal-jekyll
 
-baseurl: /minimal-jekyll
+baseurl: ""
 
 author_name: GochoMugo
 author_url: https://github.com/GochoMugo
 
-collection: 
 markdown: kramdown
