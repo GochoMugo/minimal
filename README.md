@@ -18,7 +18,7 @@ View [live demo][demo].
 
 __The MIT License (MIT)__
 
-Copyright (c) 2014 Gocho Mugo <mugo@forfuture.co.ke>
+Copyright (c) 2014-2015 Gocho Mugo <mugo@forfuture.co.ke>
 
 
 [demo]:https://gochomugo.github.io/minimal-jekyll

@@ -39,15 +39,42 @@ permalink: /setup/
 
       <section>
 
+        <div data-toggle="tooltip" title="site.data.menu.items">
+          {% include menu.html %}
+        </div>
+
+
         <h1>Setup is easy</h1>
         <p>See the elements with dotted borders? Hover your cursor over them to see the variables that set them accordingly.</p>
         <h2>More variables</h2>
         <p>The download links on the left are generated using <code>site.repository_url</code></p>
         <p><code>site.title</code> is shown as the title in tabs. <code>page.title</code> may be used to overide <code>site.title</code></p>
         <p><code>page.excerpt</code> may also be used to add description of page.</p>
+
+        <h2>Page Navigation</h2>
+        <p>To create a navigation bar as the one at the top of the page, you need to place an mapping of titles to relative urls under the key <code>items</code> in the file <code>_data/menu.yml</code></p>
+        <p>For example,</p>
+        <pre><code>
+items:
+  "introduction": "/"
+  "setup": "/setup/"
+        </code></pre>
+
         <h2>Docs</h2>
         <p>You can simply place any markdown files in the <code>docs/</code> directory for your documentation. They will be automatically converted to HTML.</p>
         <p>If need be, you may use HTML files instead.</p>
+        <p>A Sample file would be: (docs/sample.md)</p>
+        <pre><code>
+---
+layout: default
+permalink: /endpoint
+---
+
+# markdown
+
+I shall write this in Markdown only.
+        </code></pre>
+
         <h3>Done with Setup</h3>
         <p>You may remove <code>docs/setup.html</code>. It is not required for deployment.</p>
 
