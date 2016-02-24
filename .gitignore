@@ -3,3 +3,7 @@ _site/
 
 # cache for sass compiler
 .sass-cache/
+
+# used during maintenance
+.original/
+
