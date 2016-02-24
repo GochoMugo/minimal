@@ -7,7 +7,7 @@ LATEST_COMMIT_FILE=${BASE}/script/latest-commit
 LATEST_COMMIT=$(cat "${LATEST_COMMIT_FILE}")
 
 log "cloning original repository: orderedlist/minimal"
-rm -rf original
+rm -rf .original
 git clone https://github.com/orderedlist/minimal.git .original
 pushd .original/ > /dev/null
 
